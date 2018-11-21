@@ -19,10 +19,18 @@
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
+/* Useful Color Reference
+  #336699 - Blue
+  #F06000 - Accent Orange
+/* ------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #336699; } /*Formerly #0f0f0f*/
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +41,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 no-repeat top center ;//url(../images/header-background.jpg);
+   background: #336699 no-repeat top center ;/* Formerly, a photo: url(../images/header-background.jpg);*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -56,10 +64,13 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text {
+  width: 100%;
+}
+
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #11ABB0;
+   color: #F06000;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    /*text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);*/
@@ -95,7 +106,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #ebeeee; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #F06000; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +128,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #F06000; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -140,7 +151,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #161415; }
+.opaque { background-color: #336699; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -187,18 +198,18 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #ebeeee;
+   background: #fff;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #11ABB0;
+   color: #F06000;
    margin-bottom: 12px;
 }
 #about p {
@@ -219,11 +230,11 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #336699;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: #F06000;
+   color: #fff;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -242,7 +253,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #F06000; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +262,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #336699;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -596,8 +607,8 @@ ul#nav li.current a { color: #F06000; }
 #call-to-action .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f0ac";
-	padding-right: 10px;
-	font-size: 72px;
+	 padding-right: 10px;
+	 font-size: 72px;
    line-height: 72px;
    text-align: left;
    float: left;
@@ -639,7 +650,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.JPG) no-repeat center center;
+   background: #fff; /*Formerly #1F1F1F url(../images/testimonials-bg.JPG) no-repeat center center;*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -657,19 +668,19 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #F06000;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
+	 padding-right: 10px;
+	 font-size: 72px;
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: #F06000;
 }
 
 /*	Blockquotes */
@@ -677,7 +688,7 @@ call-to-action .button {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   /*text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);*/
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
@@ -685,20 +696,20 @@ call-to-action .button {
    padding: 0;
    font-size: 24px;
    line-height: 48px;
-   color: #fff
+   color: #336699
 }
 #testimonials blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
-   color: #fff;
+   color: #336699;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
-/* Flex Slider
+/* Flex Slider (these aren't used when resume section is hidden)
 /* ------------------------------------------------------------------ */
 
 /* Reset */
@@ -788,15 +799,15 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #336699;
    padding-top: 50px;
    padding-bottom: 5px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #fff; }
+#contact a:hover, #contact a:focus { color: #F06000; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -810,9 +821,8 @@ call-to-action .button {
 /*#contact h1 span { display: none; }*/
 #contact h1:before {
    font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
+   /*content: "\f0e0";*/
+   font-size: 72px;
    line-height: 72px;
    text-align: center;
    float: center;
@@ -858,7 +868,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #336699;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -877,7 +887,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #336699;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -889,7 +899,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #336699; }
 
 #message-warning i,
 #message-success i {

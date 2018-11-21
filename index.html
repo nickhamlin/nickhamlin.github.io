@@ -4,6 +4,24 @@
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129606176-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129606176-1');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGTWN8D');</script>
+<!-- End Google Tag Manager -->
+
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
@@ -33,6 +51,10 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGTWN8D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
    <!-- Header
    ================================================== -->
@@ -46,7 +68,7 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	          <li><a class="smoothscroll" href="#resume">Resume</a></li>
+	          <!-- li><a class="smoothscroll" href="#resume">Resume</a></li -->
             <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
             <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
@@ -58,10 +80,11 @@
          <div class="banner-text">
            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
             <h1 class="responsive-headline">Hi, I'm Nick.</h1>
-            <h3>I’m a data scientist working to help the global aid community use data to
+            <h3>I’m a data scientist working to help the global aid and philanthopy community use data to
               make the world a better place.
             </h3>
             <ul class="social">
+               <li><a href="mailto:nickhamlin@gmail.com"><i class="fa fa-envelope"></i></a></li>
                <li><a href="https://twitter.com/nicholashamlin"><i class="fa fa-twitter"></i></a></li>
                <li><a href="https://github.com/nickhamlin"><i class="fa fa-github"></i></a></li>
                <li><a href="http://www.linkedin.com/in/nickhamlin/ "><i class="fa fa-linkedin"></i></a></li>
@@ -88,25 +111,19 @@
 
             <h2>About Me</h2>
 
-            <p>Complex problems, like those in international development, produce complex data, and distilling it all down into meaningful and actionable insight takes time, talent, and tenacity.  Many non-profits around the world are doing excellent work, but don’t have the resources to analyze, summarize, or even track much at all in the way of data. That’s where I come in. I love creating new tools and techniques for these organizations to maximize their impact in a robust data-driven way.  As an engineer by training, I’ve been in the trenches of analytical tech for several years, during which I’ve helped major firms around the world, like HP and Blackberry, Boeing, and Raytheon, improve the reliability of their products with better data collection and analysis tools. But, what really excites me these days is working with organizations you probably haven’t heard as much about, like APOPO: a Dutch NGO that uses giant trained rats to clear minefields in post-conflict regions. I’ve got a knack for learning new tools to tackle new problems, which comes in handy when making strategy decisions about how best to support 3000 NGOs in over 160 countries.  Outside the office, I’m a proud folk music street performer and fan of obscure musical techniques (Tuvan Throat Singing anyone?). If I’m not performing, I’m probably outside figuring out how to cram another planter into my tiny urban vegetable garden. I may not be able to grow all my produce on my apartment balcony, but that doesn’t mean I won’t keep trying.
-            </p>
+            <p>I’m an experienced data wonk here to help social good organizations across the globe maximize their impact.  Nonprofits and social entrepreneurs do great work every day, but many don’t have the resources, tools, or experience to make sense of their data. That’s where I come in. Finding creative ways to make development data accessible, understandable, and actionable for everyone is what gets me out of bed in the morning</p>
 
-            <!-- div class="row">
+            <p>I’ve got a knack for learning new tools to tackle new problems.  Naturally, this comes in handy when making strategic decisions about how best to support 3000+ NGOs in 160+ countries, combatting fraud on a website that processes millions worth of transactions per year, or hacking together new ways of extracting meaning out of the aid sector’s famously complex and messy data.</p>
 
-               <div class="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p class="address">
-    						    <span>Nick Hamlin</span><br>
-    						    <span>(202) 642-5387</span><br>
-                    <span>nick@nickhamlin.com</span>
-					       </p>
-               </div>
+            <p>When I’m not writing code, crunching numbers, or telling stories with data, I'm a proud folk music street performer, amateur haiku poet, and worm farmer.</p>
+
+            <div class="row">
 
                <div class="columns download">
                   <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="/nick_hamlin_resume.pdf" class="button"><i class="fa fa-download"></i>Download Full Resume</a>
                   </p>
-               </div -->
+               </div>
 
             </div> <!-- end row -->
 
@@ -117,135 +134,6 @@
    </section> <!-- About Section End-->
 
 
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3> <a class="work" href=http://www.globalgiving.org>GlobalGiving</a></h3>
-                  <p class="info">Senior Business Intelligence Analyst<span>&bull;</span> <em class="date">April 2015 - Present</em></p>
-                  <p class="info">Business Intelligence Analyst<span>&bull;</span> <em class="date">April 2013 - April 2015</em></p>
-                  <p class="info">Proinspire Fellow - Operations <span>&bull;</span> <em class="date">May 2012 - April 2013</em></p>
-
-                  <p>
-                  GlobalGiving is an online market for ideas, information, and money that democratizes aid and philanthropy in support of several thousand grassroots non-profits around the world. Since joining the organization as a <a href=http://www.proinspire.org>ProInspire Fellow</a>, I focus on using our data to answer critical strategy questions, building new data-driven tools to help make our data more digestible and accessible, and inventing new techniques for tracking our social impact. Some of the accomplishments I'm most proud of include designing and implementing an enterprise-level self-serve reporting solution to share insights from our databases with everyone on staff, creating an algorithm that has stopped over $250,000 in fraud by premptively detecting when illegitimate donations are made on the site, and fostering a culture of experimentation by advising colleagues on experimental design and statistical analysis.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-                   <h3> <a class="work" href=http://www.ptc.com>Parametric Technology Corporation (PTC)</a></h3>
-                  <p class="info">Reliability Consulting Engineer <span>&bull;</span>
-                    <em class="date">November 2010 - May 2012</em></p>
-
-                  <p>
-                  My work at PTC centered around configuring tools and systems for engineering firms large and small to better collect, measure, and analyze data around the reliability of their products.  These implementations varied as widely as our customers, from a way to track armored vehicle maintenance and inventory across three continents simultaneously to a system for managing the reliability at each step of the supply chain of one of the largest celluar device manufacturers in the world to a process and tool to record and understand 100,000+ points of field failure data for anti-aircraft defense units. In addition, I designed and delivered several custom training courses on a wide range of reliability topics and redesigned our internal business process for developing statements of work to improve scoping accuracy, increase customer satisfaction, and manage $50K-$100K services jobs.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-<!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-           <div class="row item">
-
-              <div class="twelve columns">
-
-                 <h3>UC Berkeley: School of Information</h3>
-                 <p class="info">Masters of Information and Data Science<span>&bull;</span> <em class="date">August 2016</em></p>
-
-                 <p>
-                   Coursework: Applied Regression and Time Series Analysis, Machine Learning at Scale, Field Experiments, Machine Learning, Data Communication and Visualization, Data Storage and Retrieval, Research Design and Analysis for Data Science, Exploring and Analyzing Data, Synthetic Capstone Project
-                 </p>
-
-              </div>
-
-           </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of Rochester</h3>
-                  <p class="info">B.S. in Mechanical Engineering<span>&bull;</span> <em class="date">May 2009</em></p>
-                  <p class="info">B.A. in European History<span>&bull;</span> <em class="date">May 2009</em></p>
-                  <p class="info">Take 5 Fellowship in Ethnomusicology<span>&bull;</span> <em class="date">May 2010</em></p>
-
-                  <p>
-                  •	Overall GPA 3.87/4.0 (magna cum laude) • Dean’s List all semesters • Full-Tuition Renaissance Scholar Award
-• Teaching Assistant for Engineering Mechanics I: Statics, Computational Methods for Engineers with MATLAB (Head TA), and Solid Mechanics
-• Awarded tuition-free fifth year fellowship in ethnomusicology at Eastman School of Music.
-
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Specialties</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>In addition to core fluency with major data analysis tools, especially the ones below, I'm right at home speaking in front of a crowd or teaching new tools or ideas to new users and audiences.  I've had extensive leadership experience for teams large and small, and I can also write a pretty good haiku. <i>(Every website needs\a small dose of poetry\Wouldn't you agree?)</i>
-            </p>
-
-				<div class="bars">
-
-				   <ul class="skills">
-					    <li><span class="bar-expand mysql"></span><em>MySQL</em></li>
-              <li><span class="bar-expand python"></span><em>Python</em></li>
-  						<li><span class="bar-expand salesforce"></span><em>Salesforce</em></li>
-  						<li><span class="bar-expand confluence"></span><em>Confluence</em></li>
-  						<li><span class="bar-expand excel"></span><em>Excel</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
 
 
    <!-- Portfolio Section
@@ -264,7 +152,7 @@
           	   <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-02" title="">
+                     <a href="#modal-07" title="">
                         <img alt="" src="images/portfolio/aidsight.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -281,7 +169,7 @@
               <div class="columns portfolio-item">
                  <div class="item-wrap">
 
-                    <a href="#modal-01" title="">
+                    <a href="#modal-08" title="">
                        <img alt="" src="images/portfolio/rootchange.png">
                        <div class="overlay">
                           <div class="portfolio-item-meta">
@@ -298,12 +186,12 @@
              <div class="columns portfolio-item">
                  <div class="item-wrap">
 
-                    <a href="#modal-01" title="">
-                       <img alt="" src="images/portfolio/cop.png">
+                    <a href="#modal-03" title="">
+                       <img alt="" src="images/portfolio/abtest.png">
                        <div class="overlay">
                           <div class="portfolio-item-meta">
-                        <h5>Globalgiving Effectiveness Algorithm</h5>
-                             <p>Helping nonprofits Listen, Act, Learn, and Repeat</p>
+                            <h5>Field Experiments</h5>
+                                <p>Validated learning at GlobalGiving</p>
                      </div>
                        </div>
                        <div class="link-icon"><i class="icon-plus"></i></div>
@@ -319,8 +207,8 @@
                      <img alt="" src="images/portfolio/cop.png">
                      <div class="overlay">
                         <div class="portfolio-item-meta">
-                       <h5>OPI Experiment</h5>
-                           <p>Validating GlobalGiving's impact hypothesis</p>
+                          <h5>Globalgiving Effectiveness Algorithm</h5>
+                               <p>Helping nonprofits listen, act, learn, and repeat</p>
                     </div>
                      </div>
                      <div class="link-icon"><i class="icon-plus"></i></div>
@@ -332,7 +220,7 @@
            <div class="columns portfolio-item">
                <div class="item-wrap">
 
-                  <a href="https://www.interaction.org/newsroom/blog/location-data-we-can-do-easy-way-or-hard-way" title="">
+                  <a href="#modal-06">
                      <img alt="" src="images/portfolio/openag.jpg">
                      <div class="overlay">
                         <div class="portfolio-item-meta">
@@ -349,7 +237,7 @@
           <div class="columns portfolio-item">
              <div class="item-wrap">
 
-                <a href="http://mids-nepal-earthquake-v2.s3-website-us-east-1.amazonaws.com/" title="">
+                <a href="#modal-05" title="">
                    <img alt="" src="images/portfolio/nepal3.png">
                    <div class="overlay">
                       <div class="portfolio-item-meta">
@@ -383,7 +271,7 @@
         <div class="columns portfolio-item">
            <div class="item-wrap">
 
-              <a href="#modal-01" title="">
+              <a href="#modal-04" title="">
                  <img alt="" src="images/portfolio/geb.png">
                  <div class="overlay">
                     <div class="portfolio-item-meta">
@@ -441,11 +329,9 @@
              <a href="https://philanthropy.com/article/Fraud-Alert-Criminals-Test/233197">
                Read more in the <i>Chronicle of Philanthropy</i></a>
              </p>
-              <!--span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span -->
          </div>
 
            <div class="link-box">
-              <!--a href="https://philanthropy.com/article/Fraud-Alert-Criminals-Test/233197">Read more in the <i>Chronicle of Philanthropy</i></a -->
             <a class="popup-modal-dismiss">Close</a>
            </div>
 
@@ -453,11 +339,13 @@
 
         <div id="modal-03" class="popup-modal mfp-hide">
 
-         <img class="scale-with-grid" src="images/portfolio/modals/m-data.png" alt="" />
+         <img class="scale-with-grid" src="images/portfolio/abtest2.png" alt="" />
 
          <div class="description-box">
-           <h4>Enterprise Reporting</h4>
-           <p>Data can't do any good if no one can get to it, which is why I created an enterprise reporting and business intelligence platform built into an organization-wide wiki within Atlassian Confluence to make insight and information easy to find and understand for executives and interns alike.</p>
+           <h4>Field Experiments</h4>
+             I spend a lot of time at GlobalGiving focused on designing and carrying out field experiments to help us understand key aspects of our work; everything from how to communicate with our partners most effectively to validating that our work is having the impact we're aiming for.
+           <a href="           https://www.globalgiving.org/learn/ggtestlab/how-cognitive-psychology-and-font-colors-can-drive-donations/">
+             Check out some findings in the GlobalGiving LEARN section</a>
          </div>
 
            <div class="link-box">
@@ -487,16 +375,56 @@
 
        <div id="modal-05" class="popup-modal mfp-hide">
 
-        <img class="scale-with-grid" src="images/portfolio/modals/m-webscraping.png" alt="" />
+        <img class="scale-with-grid" src="images/portfolio/modals/m-nepal3.png" alt="" />
 
         <div class="description-box">
-          <h4>Web Scraping Tools</h4>
-          <p>Non-profit data can be tough to find, access, and analyze.  To help, I've built a series of web scraping tools for Globalgiving to gather critical information from across the internet and consolidate it into simple and accessible repositories.</p>
+          <h4>Mapping the Nepal Earthquake</h4>
+          <p>A team of colleagues and I put together this data journalism piece six months after the April 2015 earthquake to tell the story of the disaster, response, and feedback from those affected on how long-term recovery was progressing. <a href="http://mids-nepal-earthquake-v2.s3-website-us-east-1.amazonaws.com/">See the whole piece here.</a></p>
         </div>
           <div class="link-box">
            <a class="popup-modal-dismiss">Close</a>
           </div>
         </div><!-- modal-05 End -->
+
+
+        <div id="modal-06" class="popup-modal mfp-hide">
+
+         <img class="scale-with-grid" src="images/portfolio/modals/openag.jpg" alt="" />
+
+         <div class="description-box">
+           <h4>Hacking Open Agriculture Data</h4>
+           <p>I was invited by the <a href="https://www.interaction.org/project/open-ag-funding/overview">Initiative for Open Ag Funding</a> to join a four-day hackathon in London focused on using data science to make the public agriculture data more accessible and usable. I led a pilot effort to use natural language techniques to turn unstructured project documents into meanginful location data.<a href="https://www.interaction.org/newsroom/blog/location-data-we-can-do-easy-way-or-hard-way"> Read my guest post on the Interaction blog about our work.</a></p>
+         </div>
+           <div class="link-box">
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+         </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images/portfolio/modals/aidsight.png" alt="" />
+
+          <div class="description-box">
+            <h4>AidSight</h4>
+            <p>As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href="https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/">Keystone Accountability blog</a> or test it yourself at <a href="http://aidsight.org/">aidsight.org.</a></p>
+          </div>
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+          </div><!-- modal-07 End -->
+
+          <div id="modal-08" class="popup-modal mfp-hide">
+
+           <img class="scale-with-grid" src="images/portfolio/modals/rootchange.png" alt="" />
+
+           <div class="description-box">
+             <h4>Root Change Local Systems Analysis Platform</h4>
+             <p><a href="http://www.rootchange.org/">Root Change</a> is a leader in capacity development for global nonprofits and, with funding from <a href="https://www.usaid.gov/partnership-opportunities/ngo/localworks">USAID's new Localworks program</a>, they've enlisted me to reimagine their signature product, the Local Systems Analysis tool, for better scalability, feedback, and interoperability. The result is a new web platform (built on Flask, D3.js, MongoDB, and NetworkX) that enables large-scale network analysis of international development communities.</p>
+           </div>
+             <div class="link-box">
+              <a class="popup-modal-dismiss">Close</a>
+             </div>
+           </div><!-- modal-08 End -->
 
       </div> <!-- row End -->
 
@@ -587,24 +515,13 @@
    <section id="contact">
 
          <div class="row section-head">
-             <h1><span><br> Get In Touch: <br> <a href=mailto:nick@nickhamlin.com> nick@nickhamlin.com </a></span></h1>
-
-            <!-- div class="two columns header-col">
-
-            </div -->
-
-            <!-- div class="ten columns">
-
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                  </p>
-
-            </div>
+             <h1><span><br>Get In Touch:
+               <br>
+               <a href=mailto:nickhamlin@gmail.com>nickhamlin at gmail dot com</a></span></h1>
 
          </div>
 
-         <div class="row">
+         <!-- div class="row">
 
             <div class="eight columns">
 
@@ -640,7 +557,7 @@
                   </div>
 
 					</fieldset>
-				   </form> <!-- Form End -->
+				   </form> <!-- Form End - ->
 
                <!-- contact-warning - ->
                <div id="message-warning"> Error boy</div>
@@ -649,49 +566,9 @@
                   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
 				   </div>
 
-            </div>
+        </div >
 
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Nick Hamlin<br>
-						   (202) 642-5387<br>
-						   nick@nickhamlin.com<br>
-					   </p>
-				   </div>
-
-               <!-- div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside -->
-
-      </div>
+      </div-- >
 
    </section> <!-- Contact Section End-->
 
@@ -705,6 +582,7 @@
          <div class="twelve columns">
 
             <ul class="social-links">
+               <li><a href="mailto:nickhamlin@gmail.com"><i class="fa fa-envelope"></i></a></li>
                <li><a href="https://twitter.com/nicholashamlin"><i class="fa fa-twitter"></i></a></li>
                <li><a href="https://github.com/nickhamlin"><i class="fa fa-github"></i></a></li>
                <li><a href="http://www.linkedin.com/in/nickhamlin/ "><i class="fa fa-linkedin"></i></a></li>
